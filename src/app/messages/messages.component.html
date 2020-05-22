@@ -1,0 +1,8 @@
+<mat-card-header>
+      
+    <mat-card-title>Posts</mat-card-title>
+ </mat-card-header>
+
+<div *ngFor="let message of apiservice.messages">
+    <mat-card>{{message.msg}}</mat-card>
+</div>
